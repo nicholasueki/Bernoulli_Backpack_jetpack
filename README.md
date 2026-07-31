@@ -1,46 +1,64 @@
-# Bernoulli Backpack Jetpack — Personal Flight Concept with Everyday Utility
+# Wearable Jetpack Concept
 
-A conceptual personal aviation device that doubles as a functional backpack. Designed, modeled, and prototyped as a team mechanical engineering project using SolidWorks.
+A personal flight device that folds down into a backpack you could actually carry around. My
+4 person team designed the whole thing in SolidWorks, from the folding wings to the harness. I
+led the design of the wings, the airbrakes and the control stick.
 
----
+![Wings deployed](media/render_wings_deployed.jpg)
 
-## Objective
+Folded up and worn as a backpack:
 
-Most personal flight concepts sacrifice practicality for novelty. The goal here was to design a device that a person could realistically carry and use daily — a backpack that transforms into a wearable jetpack — while applying Bernoulli-principle wing aerodynamics and keeping the form factor compact enough for urban use.
+![Folded into a backpack](media/render_folded.jpg)
 
----
+## The idea
 
-## What I Built
+- Most personal flight concepts are impossible to carry when you are not flying
+- This one folds into something a person can wear on the way to work
+- Wings, airbrakes and controls all stow inside the pack
 
-The full assembly was designed from scratch across 16+ parametric SolidWorks components, organized into five major subassemblies:
+## What I designed
 
-- **Wing assembly** — modular segmented wings (large, medium, small, tip, and end piece) designed to fold and stack for portability
-- **Airbrake system** — hinged arm-and-piston mechanism for descent control and speed modulation
-- **Control interface** — joystick mounted on the harness for directional input during flight
-- **Structural harness** — seatbelt and strap system with integrated control pad, load-bearing frame, and power access
-- **Accessory mounts** — phone holder and microphone stand built into the main body for in-flight communication
+- **Folding wings:** five segments per side that stack into the pack, sized so the shape still
+  works when opened
+- **Airbrakes:** hinged arm and piston mechanism that sits flush with the wing surface when
+  retracted, and swings out to slow a descent
+- **Control stick:** handle mounted on the harness for steering during flight
 
-Each component was modeled with full parametric drawings and assembled into an exploded-view diagram. Animations were produced to demonstrate the takeoff sequence and wing deployment.
+## The rest of the assembly
 
----
+- Harness with straps, a control pad and a load bearing frame
+- Phone holder and microphone mount built into the body
+- Over 16 custom parts across 5 subassemblies
 
-## Challenges
+## What was hard
 
-**Modularity vs. structural integrity** — Making wings modular enough to fold into a backpack form while maintaining aerodynamic continuity required careful joint design across multiple segment interfaces.
+- **Folding versus strength.** Wings that fold need joints, and joints are where a wing wants to
+  break. Getting the segment interfaces right took the most iteration.
+- **Fit across a team.** With 16 parts and 4 people, parts only fit together because we agreed on
+  a shared file structure and kept every model driven by the same dimensions.
+- **Software crashes.** SolidWorks kept failing on the large assembly, so we started saving
+  checkpoints and rebuilt several parts from scratch.
 
-**Assembly tolerancing** — With 16+ components across a team of four, ensuring all parts fit together without rework required strict adherence to a shared SolidWorks file structure and parametric constraints.
+## Deliverables
 
-**Software stability** — SolidWorks 2023 crash issues during complex assembly operations forced us to develop a checkpoint-based workflow and rebuild several components from scratch mid-project.
+- Full part and assembly models
+- Technical drawings with tolerance callouts
+- Exploded views and a bill of materials
+- Rendered animation of the wings deploying
 
----
+## From the first sketches
 
-## Tech Stack
+![Early sketches of the wings, airbrakes and controls](media/initial_wing_sketches.png)
 
-- **CAD:** SolidWorks 2023 (parametric modeling, assembly, technical drawings, exploded views)
-- **Visualization:** SolidWorks rendering + animation for flight sequence demonstration
-- **Documentation:** Full engineering drawing package including GD&T callouts, exploded views, and BOM
+## Tools
 
----
+- SolidWorks 2023 for modeling, assembly, drawings and rendering
+
+## Files
+
+- `media/` renders, animation and the original SolidWorks drawings
+- `Team Project Final Report - Group 10.pdf` full written report
+- `presentation.pdf` final presentation
 
 ## Team
 
